@@ -46,7 +46,7 @@ public class Config {
                         "/iam/login",
                         "/iam/register",
                         "/iam/register-confirm",
-                        "/iam/reset-password",
+                        "/iam/reset-password/**",
                         "/gw-assets/**"
                     ).permitAll()
 				.anyExchange().authenticated()

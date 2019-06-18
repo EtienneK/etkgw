@@ -8,4 +8,7 @@ spring:
     #  host: localhost
     #  port: 3128
 etk:
+  base-url: http://localhost:8000/
   product-name: Etk Gateway
+  support-url: mailto:support@example.com
+  support-email: support@example.com
