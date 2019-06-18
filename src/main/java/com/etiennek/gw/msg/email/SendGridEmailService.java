@@ -1,4 +1,4 @@
-package com.etiennek.gw.msg.mail;
+package com.etiennek.gw.msg.email;
 
 import com.sendgrid.Content;
 import com.sendgrid.Email;
@@ -59,7 +59,7 @@ public class SendGridEmailService implements EmailService {
         Content content = new Content(contentType, body);
         Mail mail = new Mail(new Email(from), subject, new Email(to), content);
         return webClient.post().uri("/mail/send").body(BodyInserters.fromObject(mail)).retrieve()
-                .bodyToMono(String.class).map(b -> null);
+                .bodyToMono(Void.class);
     }
 
 }

@@ -3,8 +3,9 @@ server:
 spring:
   thymeleaf:
     cache: false
-  sendgrid:
-    api-key: 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
-    proxy:
-      host: localhost
-      port: 3128
+  #sendgrid:
+    #proxy:
+    #  host: localhost
+    #  port: 3128
+etk:
+  product-name: Etk Gateway

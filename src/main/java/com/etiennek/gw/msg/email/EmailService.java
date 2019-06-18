@@ -1,4 +1,4 @@
-package com.etiennek.gw.msg.mail;
+package com.etiennek.gw.msg.email;
 
 import reactor.core.publisher.Mono;
 
