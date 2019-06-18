@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html th:replace="iam/layout :: layout(~{::title}, ~{}, ~{::#content})">
+
+<head>
+    <title>Account created</title>
+</head>
+
+<body>
+    <th:block id="content">
+        <h1>Etk Gateway account created</h1>
+        <div class="card iam-card">
+            <p>Your account has been created successfully.</p>
+            <a class="btn btn-primary" th:href="@{/iam/sign-in}" role="button">Proceed to sign in</a>
+        </div>
+    </th:block>
+</body>
+
+</html>

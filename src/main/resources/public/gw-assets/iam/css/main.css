@@ -1,0 +1,56 @@
+body {
+    background-color: #eee;
+}
+
+h1 {
+    text-align: center;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.iam-card {
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.foot {
+    margin: 0;
+    text-align: center;
+}
+
+.foot a {
+    font-size: 120%;
+}
+
+.alert {
+    text-align: center;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+    padding: 10px;
+}
