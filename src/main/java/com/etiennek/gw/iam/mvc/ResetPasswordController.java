@@ -59,6 +59,7 @@ public class ResetPasswordController {
                         ctx.setVariable("productName", etkProperties.getProductName());
                         ctx.setVariable("username", user.getUsername());
                         ctx.setVariable("supportUrl", etkProperties.getSupportUrl());
+                        ctx.setVariable("baseUrl", etkProperties.getBaseUrl());
                         ctx.setVariable("userAgent", mt.getUserAgent());
                         try {
                             ctx.setVariable("resetPasswordUrl",
